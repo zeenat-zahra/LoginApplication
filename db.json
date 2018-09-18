@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "admin",
+      "email": "email@gmail.com",
+      "address": "Lahore",
+      "username": "admin",
+      "password": "pass",
+      "role": "ADMIN"
+    },
+    {
+      "name": "zeenat",
+      "email": "zeenatzahra9@gmail.com",
+      "address": "Lahore",
+      "username": "user1",
+      "password": "2323433",
+      "role": "USER",
+      "id": 1
+    },
+    {
+      "name": "sana",
+      "email": "sana9@gmail.com",
+      "address": "Lahore",
+      "username": "user2",
+      "password": "2323433",
+      "role": "USER",
+      "id": 2
+    },
+    {
+      "name": "qandeel",
+      "email": "qandeel@gmail.com",
+      "address": "Lahore",
+      "username": "user3",
+      "password": "12345",
+      "role": "USER",
+      "id": 3
+    },
+    {
+      "name": "user4",
+      "email": "zeenatzahra9@gmail.com",
+      "address": "Lahore",
+      "username": "user1",
+      "password": "324235",
+      "role": "USER",
+      "id": 4
+    },
+    {
+      "name": "adas",
+      "email": "ssdaf",
+      "address": "Lahore",
+      "username": "asd",
+      "password": "asddd",
+      "role": "ds",
+      "id": 5
+    }
+  ]
+}

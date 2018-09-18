@@ -1,0 +1,21 @@
+<div class="container" style="margin-top:15%">
+    <div id="form-wrapper">
+        <div id="formcontainer">
+            <div>
+                <form>
+                    <input type="text" class="form-group" ng-model="$ctrl.username" id="username" name="username"
+                        placeholder="username">
+
+                    <input type="password" class="form-group" ng-model="$ctrl.password" id="password" placeholder="password">
+
+                    <br />
+                    <br />
+                    <button ng-click="$ctrl.submit()" class=" button" type="submit">Login </button>
+                    <br />
+                    <br />
+                    <span class="text-danger" style="margin-left: 4% ">{{ $ctrl.error }}</span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

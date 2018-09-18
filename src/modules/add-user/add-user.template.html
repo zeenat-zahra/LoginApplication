@@ -1,0 +1,28 @@
+<div class="container" style="margin-top:15%">
+    <div id="form-wrapper">
+        <div id="formcontainer">
+            <div>
+                <form>
+                    <h1 class="form-heading" style="margin-left:3% ; color:#f0ad4e">Add User</h1>
+                    <br />
+                    <input type="text" class="form-group" ng-model="$ctrl.name" id="name" name="name" placeholder="Name">
+                    <input type="text" class="form-group" ng-model="$ctrl.email" id="email" name="email" placeholder="Email">
+                    <input type="text" class="form-group" ng-model="$ctrl.address" id="address" name="address"
+                        placeholder="Address">
+                    <input type="text" class="form-group" ng-model="$ctrl.role" id="role" name="role" placeholder="User Role">
+                    <input type="text" class="form-group" ng-model="$ctrl.username" id="username" name="username"
+                        placeholder="username">
+
+                    <input type="password" class="form-group" ng-model="$ctrl.password" id="password" placeholder="password">
+
+                    <br />
+                    <br />
+                    <button ng-click="$ctrl.add()" class=" button" type="submit">Add User </button>
+                    <br />
+                    <br />
+                    <span class="text-success" style="margin-left: 4% ">{{ $ctrl.success }}</span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
